@@ -1,2 +1,1 @@
-web: gunicorn hospital_server:app
-worker: python hospital_scraper.py
+web: python hospital_server.py
